@@ -1,0 +1,172 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", calibri;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #ffffff;
+    
+}
+
+header{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.text-apresentation{
+     
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #0c1c29;
+}
+
+.text-apresentation p{
+    padding: 1rem .5rem;
+    margin: 0 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+}
+
+.topics-apresentation{
+    width: 100%;
+    text-align: center;
+    
+}
+.info-icon{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 8rem;
+        
+}
+.info-icon .embalagem img{
+    width: 100%;
+    max-width: 446px;
+    height: auto;
+    
+}
+
+.info-icon ol{
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-start;  
+    padding: 1rem .5rem 1rem .5rem;
+    gap: 15px;
+} 
+
+.info-icon ol li{
+    display: flex;
+    align-items: center;
+    
+}
+
+.info-icon ol li p{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1px;     
+} 
+
+.tp-p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #0c1c29;
+}
+
+.tp-p p{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    padding: 1rem .5rem;
+    margin: 0 2rem;
+}
+
+.certify{
+
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.certify p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    margin-bottom: 3rem;
+    background-color: #0c1c29;
+    color: #ffffff;
+    padding: 1.5rem;
+    padding: 1.5rem;
+
+}
+
+.certify img{
+    max-width: 789px;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.buy-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.btn-buy{
+    margin-top: 25px ;
+    margin-bottom: 15px;
+}
+
+.btn-buy button{
+    background-image: linear-gradient(#dab202,#df8703) ;
+    width: 215px;    
+    height: 4rem;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    border-radius: 5rem;
+    border: none;
+    box-shadow: 3px 3px #888888;
+    cursor: pointer;
+
+}
+
+.btn-buy button:hover{
+    background-image: linear-gradient(#dab202d3,#df8703ce) ;
+    transition: .3s ease;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
